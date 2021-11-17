@@ -19,7 +19,7 @@ const Skills = () => {
     return (
       <React.Fragment>
         <div id="skills" className={styles.container}>
-            <h2>Skills</h2>
+            <h2 className={styles.title}>Skills</h2>
             <div className={styles.skills}>
                 <Image
                 src={javascriptImage}

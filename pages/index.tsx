@@ -1,9 +1,12 @@
 import type { NextPage } from 'next'
+import Image from 'next/image'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Title from './components/title'
 import About from './components/aboutMe'
 import Skills from './components/skills'
+import Proyects from './components/proyects'
+import logoImg from '../public/LogoYeyner.png'
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +15,10 @@ const Home: NextPage = () => {
         <title>Yeyner Portfolio</title>
       </Head>
       <header className={styles.header}>
-        <h3 className={styles.headerTitle}>Yeyner Arenales</h3>
+        <Image 
+          src={logoImg}
+          alt="Logo"
+        />
         <div className={styles.containerLinks}>
           <a  className={styles.links}>
             Sobre Mi
@@ -32,6 +38,7 @@ const Home: NextPage = () => {
         <Title></Title>
         <About></About>
         <Skills></Skills>
+        <Proyects></Proyects>
       </main>
     </div>
   )
