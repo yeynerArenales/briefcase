@@ -26,32 +26,10 @@
   font-weight: 600;
   padding: 5px;
   transition: all 0.3s;
+  text-decoration: none;
+  color: #B3B3B3;
 }
 
 .links:hover{
   color: #76FBDC;
-}
-
-.title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title h1{
-  font-size: 80px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.subtitle{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color:#76FBDC;
-  font-size: 40px
-}
-
-.subtitle h2{
-  margin-top: 0px;
 }

@@ -1,0 +1,15 @@
+.container{
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.skills img{
+    width: 140px !important;
+    height: 130px !important;
+}
