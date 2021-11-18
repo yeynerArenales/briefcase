@@ -5,7 +5,7 @@ import styles from '../../styles/contact.module.css';
 const Contact = () => {
     return (
       <React.Fragment>
-        <div>
+        <div id="contact">
             <h2 className={styles.title}>
                 Contacto
             </h2>

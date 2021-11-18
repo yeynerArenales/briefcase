@@ -4,7 +4,7 @@ import styles from '../../styles/aboutMe.module.css';
 const About = () => {
     return (
       <React.Fragment>
-        <div className={styles.description}>
+        <div id="about" className={styles.description}>
           <p>
             Estudiante de Ingenieria Informatica. Desarrollador Web. Tengo conocimientos en JavaScript. Poseo experiencia en Angular.js y React.js como frameworks frontend. En el backend cuento con conocimientos en C# utilizando .Net core y PostgreSQL, asi mismo, poseo conocimientos en Node.js con el framework express y MongoDB. Actualmente me encuentro desarrollando conocimientos en el framework nest.js.
             <br />

@@ -3,6 +3,8 @@
   background-color: #141B1F;
   font-family: 'Roboto', sans-serif;
   color: #B3B3B3;
+  
+  scroll-behavior: smooth;
 }
 
 .header img{
