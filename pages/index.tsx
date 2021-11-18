@@ -16,19 +16,18 @@ const Home: NextPage = () => {
         <title>Yeyner Portfolio</title>
       </Head>
       <header className={styles.header}>
-        <Image 
-          src={logoImg}
-          alt="Logo"
-        />
+        <div className={styles.containerImage}>
+          <Image 
+            src={logoImg}
+            alt="Logo"
+          />
+        </div>
         <div className={styles.containerLinks}>
           <a  className={styles.links}>
             Sobre Mi
           </a>
           <a href="#skills" className={styles.links}>
             Skills
-          </a>
-          <a className={styles.links}>
-            Proyectos
           </a>
           <a className={styles.links}>
             Contacto  
@@ -39,7 +38,6 @@ const Home: NextPage = () => {
         <Title></Title>
         <About></About>
         <Skills></Skills>
-        <Proyects></Proyects>
         <Contact></Contact>
       </main>
     </div>

@@ -7,6 +7,7 @@
 .title h1{
     font-size: 80px;
     margin-bottom: 10px;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -14,10 +15,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color:#76FBDC;
     font-size: 40px
 }
 
 .subtitle h2{
     margin-top: 0px;
+}
+
+@media screen and (max-width: 480px){
+    .title h1{
+        font-size: 50px;
+    }
+
+    .subtitle{
+        font-size: 25px
+    }
 }
