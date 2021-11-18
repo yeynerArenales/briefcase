@@ -23,13 +23,13 @@ const Home: NextPage = () => {
           />
         </div>
         <div className={styles.containerLinks}>
-          <a  className={styles.links}>
+          <a href="#about" className={styles.links}>
             Sobre Mi
           </a>
           <a href="#skills" className={styles.links}>
             Skills
           </a>
-          <a className={styles.links}>
+          <a href="#contact" className={styles.links}>
             Contacto  
           </a>          
         </div>
