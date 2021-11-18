@@ -1,0 +1,24 @@
+.title{
+    color: #76FBDC;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.svgImage{
+    fill: currentColor !important;
+    padding: 5px;
+    color: #B3B3B3;
+}
+
+.svgImage:hover{
+    color: #76FBDC;
+    transition: all 0.3s;
+}

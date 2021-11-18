@@ -6,6 +6,7 @@ import Title from './components/title'
 import About from './components/aboutMe'
 import Skills from './components/skills'
 import Proyects from './components/proyects'
+import Contact from './components/contact'
 import logoImg from '../public/LogoYeyner.png'
 
 const Home: NextPage = () => {
@@ -39,6 +40,7 @@ const Home: NextPage = () => {
         <About></About>
         <Skills></Skills>
         <Proyects></Proyects>
+        <Contact></Contact>
       </main>
     </div>
   )
