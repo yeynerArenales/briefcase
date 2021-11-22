@@ -6,10 +6,10 @@ const About = () => {
       <React.Fragment>
         <div id="about" className={styles.description}>
           <p>
-            Estudiante de Ingenieria Informatica. Desarrollador Web. Tengo conocimientos en JavaScript. Poseo experiencia en Angular.js y React.js como frameworks frontend. En el backend cuento con conocimientos en C# utilizando .Net core y PostgreSQL, asi mismo, poseo conocimientos en Node.js con el framework express y MongoDB. Actualmente me encuentro desarrollando conocimientos en el framework nest.js.
+            Desarrollador Web. Estudiante de Ingeniería Informatica. Tengo gran conocimiento en JavaScript y PHP, me encuentro desarrollando conocimientos en Python. Experiencia en React.js y Angular JS, así mismo, en C# con .Net Core.
             <br />
             <br />
-            Soy un amante de la tecnología, me encanta afrontar nuevos retos para mi crecimiento personal y profesional. Estoy dispuesto aprender nuevas técnicas o tecnologías. Amante de los video juegos, futbol y F1.
+            Soy un amante de la tecnología, los video juegos y el futbol. Me encanta afrontar nuevos retos para mi crecimiento personal y profesional. Estoy dispuesto aprender nuevas técnicas o tecnologías.
           </p>
         </div>
       </React.Fragment>
