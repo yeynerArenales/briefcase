@@ -21,72 +21,90 @@ const Skills = () => {
         <div id="skills" className={styles.container}>
             <h2 className={styles.title}>Skills</h2>
             <div className={styles.skills}>
-                <Image
-                src={javascriptImage}
-                alt="Javascript Image"
-                className={styles.image}
-                />
-                <Image
-                src={nodeImage}
-                alt="Node Js Image"
-                className={styles.image}
-                />
-                <Image
-                src={cImage}
-                alt="C# Image"
-                className={styles.image}
-                />
-                <Image
-                src={typescriptImage}
-                alt="TypeScript Image"
-                className={styles.image}
-                />
-            </div>
-
-            <div className={styles.skills}>
-                <Image
-                src={reactImage}
-                alt="React Image"
-                className={styles.image}
-                />
-                <Image
-                src={nextImage}
-                alt="Next Image"
-                className={styles.image}
-                />
-                <Image
-                src={netImage}
-                alt=".Net Image"
-                className={styles.image}
-                />
-                <Image
-                src={expressImage}
-                alt="Express Image"
-                className={styles.image}
-                />
-                <Image
-                src={angularImage}
-                alt="Angular Image"
-                className={styles.image}
-                />
-            </div>
-
-            <div className={styles.skills}>
-                <Image
-                src={mongoImage}
-                alt="Mongo Image"
-                className={styles.image}
-                />
+                <div className={styles.containerImage}>
+                    <Image
+                    src={javascriptImage}
+                    alt="Javascript Image"
+                    className={styles.image}
+                    />
+                </div>
+                <div className={styles.containerImage}>
+                    <Image
+                    src={nodeImage}
+                    alt="Node Js Image"
+                    className={styles.image}
+                    />
+                </div>
+                <div className={styles.containerImage}>
+                    <Image
+                    src={cImage}
+                    alt="C# Image"
+                    className={styles.image}
+                    />
+                </div>
+                <div className={styles.containerImage}>
+                    <Image
+                    src={typescriptImage}
+                    alt="TypeScript Image"
+                    className={styles.image}
+                    />
+                </div>
+                <div className={styles.containerImage}>
+                    <Image
+                    src={reactImage}
+                    alt="React Image"
+                    className={styles.image}
+                    />
+                </div>
+                {/* <div className={styles.containerImage}>
+                    <Image
+                    src={nextImage}
+                    alt="Next Image"
+                    className={styles.image}
+                    />
+                </div>
+                <div className={styles.containerImage}>
+                    <Image
+                    src={netImage}
+                    alt=".Net Image"
+                    className={styles.image}
+                    />
+                </div> */}
+                <div className={styles.containerImage}>
+                    <Image
+                    src={expressImage}
+                    alt="Express Image"
+                    className={styles.image}
+                    />
+                </div>
+                <div className={styles.containerImage}>
+                    <Image
+                    src={angularImage}
+                    alt="Angular Image"
+                    className={styles.image}
+                    />
+                </div>
+                <div className={styles.containerImage}>
+                    <Image
+                    src={mongoImage}
+                    alt="Mongo Image"
+                    className={styles.image}
+                    />
+                </div>
+                <div className={styles.containerImage}>
                 <Image
                 src={postgreImage}
                 alt="Postgre Image"
                 className={styles.image}
                 />
+                </div>
+                <div className={styles.containerImage}>
                 <Image
                 src={mySqlImage}
                 alt="MySql Image"
                 className={styles.image}
                 />
+                </div>
             </div>
         </div>
       </React.Fragment>
