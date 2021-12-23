@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import Title from './components/title'
 import About from './components/aboutMe'
 import Skills from './components/skills'
-import Proyects from './components/proyects'
+import ListOfProyects from './components/listOfProyects'
 import Contact from './components/contact'
 import logoImg from '../public/LogoYeyner.png'
 
@@ -29,6 +29,9 @@ const Home: NextPage = () => {
           <a href="#skills" className={styles.links}>
             Skills
           </a>
+          <a href="#proyects" className={styles.links}>
+            Proyectos  
+          </a> 
           <a href="#contact" className={styles.links}>
             Contacto  
           </a>          
@@ -38,6 +41,7 @@ const Home: NextPage = () => {
         <Title></Title>
         <About></About>
         <Skills></Skills>
+        <ListOfProyects></ListOfProyects>
         <Contact></Contact>
       </main>
     </div>

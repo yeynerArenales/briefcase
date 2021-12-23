@@ -1,0 +1,18 @@
+{
+    "proyects": [
+        {
+            "name": "Block In Service",
+            "logoUrl": "/blockService.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere tristique interdum. Nulla id massa quis lectus laoreet dictum nec eu dolor. Praesent eget urna sollicitudin, commodo ligula vel, cursus magna.",
+            "siteUrl": "https://www.blockinservice.com/",
+            "widthLogo": "250px"
+        },
+        {
+            "name": "Somos Moa",
+            "logoUrl": "/logoMoa.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere tristique interdum. Nulla id massa quis lectus laoreet dictum nec eu dolor. Praesent eget urna sollicitudin, commodo ligula vel, cursus magna.",
+            "siteUrl": "https://www.somosmoa.com/",
+            "widthLogo": "80px"
+        }
+    ]
+}

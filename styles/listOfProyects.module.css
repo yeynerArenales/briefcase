@@ -1,0 +1,13 @@
+.title{
+    color: #76FBDC;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

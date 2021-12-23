@@ -1,0 +1,55 @@
+.container{
+    background-color: transparent;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    width: 280px;
+    height: 280px;
+    padding: 12px;
+    margin: 10px;
+}
+
+.container:hover{
+    border: 1px solid #76FBDC;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.link{
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    color: #76FBDC;
+    text-decoration: none;
+    border: 1px solid #76FBDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-weight: 550;
+}
+
+.link:hover{
+    border: 1px solid #eee;
+    color: #eee;
+    transition: all 0.3s;
+}
