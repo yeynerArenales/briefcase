@@ -23,6 +23,9 @@ const Home: NextPage = () => {
           />
         </div>
         <div className={styles.containerLinks}>
+          <a href="./CV_YEYNER.pdf" className={styles.links} download="CV_YEYNER.pdf">
+              Descargar CV
+          </a>    
           <a href="#about" className={styles.links}>
             Sobre Mi
           </a>
@@ -34,7 +37,7 @@ const Home: NextPage = () => {
           </a> 
           <a href="#contact" className={styles.links}>
             Contacto  
-          </a>          
+          </a>     
         </div>
       </header>
       <main>
