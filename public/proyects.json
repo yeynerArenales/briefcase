@@ -11,7 +11,7 @@
         {
             "name": "Somos Moa",
             "logoUrl": "/logoMoa.png",
-            "description": "Pagina Web de Cafeteria, Integrando Carrusel de Imagenes, Menu de Productos, Contacto y Ubicacion.",
+            "description": "Pagina Web de Cafeteria, Integrando Carrusel de Imagenes, Responsive Design, Menu de Productos, Contacto y Ubicacion.",
             "siteUrl": "https://www.somosmoa.com/",
             "widthLogo": "80px",
             "tech": "HTML / CSS"
@@ -19,7 +19,7 @@
         {
             "name": "Ip Addres Tracker",
             "logoUrl": "/marcador.png",
-            "description": "Proyecto de Prueba, Rastreador de direcciones IP.",
+            "description": "Proyecto de Prueba, Rastreador de direcciones IP. Este Proyecto no tiene Responsive Design.",
             "siteUrl": "https://ip-addres-tracker-hcj34uz97-jeinerarenales.vercel.app/",
             "widthLogo": "50px",
             "tech": "ReactJS"
