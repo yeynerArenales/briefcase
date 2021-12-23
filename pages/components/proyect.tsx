@@ -7,10 +7,12 @@ type ProyectProps = {
     logoUrl: string,
     widthLogo: string,
     description: string,
-    siteUrl: string
+    siteUrl: string,
+    tech: string,
+    altImage: string
 }
 
-const Proyect = ( { logoUrl, widthLogo, description, siteUrl }: ProyectProps) => {
+const Proyect = ( { logoUrl, widthLogo, description, siteUrl, tech, altImage }: ProyectProps) => {
   console.log(logoUrl)
     return (
       <React.Fragment>
@@ -18,7 +20,7 @@ const Proyect = ( { logoUrl, widthLogo, description, siteUrl }: ProyectProps) =>
           <div className={styles.image}>
             <Image 
               src={logoUrl}
-              alt="Logo Image"
+              alt={altImage}
               className={styles.logo}
               width={widthLogo}
               height="80px"
@@ -26,6 +28,11 @@ const Proyect = ( { logoUrl, widthLogo, description, siteUrl }: ProyectProps) =>
           </div>
           <div className={styles.description}>
             {description}
+            <br />
+            <br />
+            <p className={styles.tech}>
+              {tech}
+            </p>
           </div>
           <div className={styles.button}>
             <a href={siteUrl} target="_blank" rel="noreferrer" className={styles.link}>Visitar Sitio</a>

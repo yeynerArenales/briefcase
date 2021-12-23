@@ -20,6 +20,8 @@ const ListOfProyects = () => {
                 siteUrl={proyect.siteUrl}
                 description={proyect.description} 
                 key={proyect.name}
+                tech={proyect.tech}
+                altImage={proyect.name}
                 ></Proyect>)
             }
           </div>

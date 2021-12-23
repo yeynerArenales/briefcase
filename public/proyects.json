@@ -3,16 +3,26 @@
         {
             "name": "Block In Service",
             "logoUrl": "/blockService.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere tristique interdum. Nulla id massa quis lectus laoreet dictum nec eu dolor. Praesent eget urna sollicitudin, commodo ligula vel, cursus magna.",
+            "description": "Applicacion de Captura de bloques, Diferentes Roles de Usuario y sistema de pago con stripe.",
             "siteUrl": "https://www.blockinservice.com/",
-            "widthLogo": "250px"
+            "widthLogo": "250px",
+            "tech": "AngularJS / .Net Core"
         },
         {
             "name": "Somos Moa",
             "logoUrl": "/logoMoa.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere tristique interdum. Nulla id massa quis lectus laoreet dictum nec eu dolor. Praesent eget urna sollicitudin, commodo ligula vel, cursus magna.",
+            "description": "Pagina Web de Cafeteria, Integrando Carrusel de Imagenes, Menu de Productos, Contacto y Ubicacion.",
             "siteUrl": "https://www.somosmoa.com/",
-            "widthLogo": "80px"
+            "widthLogo": "80px",
+            "tech": "HTML / CSS"
+        },
+        {
+            "name": "Ip Addres Tracker",
+            "logoUrl": "/marcador.png",
+            "description": "Proyecto de Prueba, Rastreador de direcciones IP.",
+            "siteUrl": "https://ip-addres-tracker-hcj34uz97-jeinerarenales.vercel.app/",
+            "widthLogo": "50px",
+            "tech": "ReactJS"
         }
     ]
 }
