@@ -27,8 +27,30 @@
 
 .containerLinks{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-right: 40px;
+}
+
+.downloadButton{
+  width: 160px;
+  height: 30px;
+  border: 1px solid #B3B3B3;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 550;
+  color: #B3B3B3;
+}
+
+.downloadButton:hover{
+  border: 1px solid #76FBDC;
+  color: #76FBDC;
+  transition: all 0.3s;
 }
 
 .links{
@@ -43,7 +65,7 @@
   color: #76FBDC;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 815px){
 
   .containerLinks{
     margin-right: 0px;
