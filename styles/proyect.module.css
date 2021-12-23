@@ -1,6 +1,6 @@
 .container{
     background-color: transparent;
-    border: 1px solid #eee;
+    border: 1px solid #B3B3B3;
     border-radius: 12px;
     width: 280px;
     height: 280px;
@@ -46,9 +46,9 @@
     width: 120px;
     height: 30px;
     background-color: transparent;
-    color: #76FBDC;
+    color: #B3B3B3;
     text-decoration: none;
-    border: 1px solid #76FBDC;
+    border: 1px solid #B3B3B3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +57,7 @@
 }
 
 .link:hover{
-    border: 1px solid #eee;
-    color: #eee;
+    border: 1px solid #76FBDC;
+    color: #76FBDC;
     transition: all 0.3s;
 }
