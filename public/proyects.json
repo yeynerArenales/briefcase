@@ -27,10 +27,18 @@
         {
             "name": "Marvel",
             "logoUrl": "/marvel-logo.png",
-            "description": "Heroes de Marvel Comics, Conectado a API de Marvel.",
-            "siteUrl": "https://marvel-hpx33ge6p-jeinerarenales.vercel.app/",
-            "widthLogo": "70px",
+            "description": "Heroes de Marvel Comics, Conectado a API de Marvel. Donde podemos cambiar valores localmente.",
+            "siteUrl": "https://marvel-opal.vercel.app/",
+            "widthLogo": "90px",
             "tech": "AngularJS"
+        },
+        {
+            "name": "Rick and Morty",
+            "logoUrl": "/rickAndMorty.png",
+            "description": "Personajes de la serie Rick and Morty, Conectado a API Rick and Morty Api.",
+            "siteUrl": "https://rickandmorty-fawn-three.vercel.app/",
+            "widthLogo": "90px",
+            "tech": "ReactJS"
         }
     ]
 }
