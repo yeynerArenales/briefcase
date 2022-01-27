@@ -23,6 +23,14 @@
             "siteUrl": "https://ip-addres-tracker-hcj34uz97-jeinerarenales.vercel.app/",
             "widthLogo": "50px",
             "tech": "ReactJS"
+        },
+        {
+            "name": "Marvel",
+            "logoUrl": "/marvel-logo.png",
+            "description": "Heroes de Marvel Comics, Conectado a API de Marvel.",
+            "siteUrl": "https://marvel-hpx33ge6p-jeinerarenales.vercel.app/",
+            "widthLogo": "70px",
+            "tech": "AngularJS"
         }
     ]
 }
